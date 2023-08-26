@@ -1,0 +1,38 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #d7c341, #c4b2bd, #ffffff, #dfc587);
+            animation: gradientAnimation 15s ease infinite;
+        }
+        .container {
+            width: 80%;
+            max-width: 800px;
+            padding: 2rem;
+            background-color: #f3ce68;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        #fileInput {
+            display: none;
+        }
+        #convertButton {
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #output {
+            margin-top: 2rem;
+            text-align: left;
+            white-space: pre-wrap;
+        }
